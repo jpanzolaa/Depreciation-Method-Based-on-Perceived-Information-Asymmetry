@@ -67,5 +67,5 @@ for k in range(15):
     
 
 df = pd.DataFrame(datos_productos)
-df.to_csv("PRODUCTOS.csv", index=False)
+df.to_csv("PREPRODUCTOS.csv", index=False)
 driver.close
